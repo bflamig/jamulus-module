@@ -1,0 +1,16 @@
+{
+    "name": "jamulus",
+    "version": "1.0.0",
+    "description": "jamulus module",
+    "author": "bflamig",
+    "launch_mode": "auto",
+    "depends_on": [
+        "jack.service",
+        "pisound-ctl.service"
+    ],
+    "scripts": {
+        "launch": "disconnect_pulse.sh"
+	"stop": "connect_pulse.sh"
+    }
+}
+
