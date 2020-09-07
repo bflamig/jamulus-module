@@ -9,7 +9,7 @@
         "pisound-ctl.service"
     ],
     "scripts": {
-        "launch": "disconnect_pulse.sh"
+        "launch": "disconnect_pulse.sh",
 	"stop": "connect_pulse.sh"
     }
 }
